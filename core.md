@@ -24,14 +24,35 @@ Publish to:
     - drone-control/roll
     - drone-control/pitch
     - drone-control/yaw
+- CV Program Selector Bit
+    - drone-control/cv_id
 
 Requirements
 - std_msgs
 - roscpp
 
 
+## MC-In
+This is the Manual Controller In Node. This node reads controller input from UART and publishes them as-is.
+
+Subscribe to:
+- N/A
+
+Publish to:
+- Manual Controller Packets
+    - man-controller/left_x
+    - man-controller/left_y
+    - man-controller/right_x
+    - man-controller/right_y
+
+Requirements
+- rosserial
+- std_msgs
+- roscpp
+
+
 ## FC-Out
-This is the Flight Controller Out Node
+This is the Flight Controller Out Node. This node takes messages published by the control node and sends them to the flight controller. 
 
 Subscribe to:
 - Drone Control
@@ -46,3 +67,17 @@ Requirements
 - rosserial
 - std_msgs
 - roscpp
+
+
+
+## CV-Manager
+This is the CV Manager Node. IT IS TBD. 
+
+Subscribe to:
+- TBD
+
+Publish to:
+- TBD
+
+Requirements
+- TBD
