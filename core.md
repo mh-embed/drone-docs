@@ -1,7 +1,5 @@
 # Drone Core Documentation
 
-## Table of Contents
-
 
 ## Control-Node
 This is the Master Control Node
