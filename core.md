@@ -30,7 +30,7 @@ Requirements
 - roscpp
 
 
-## [MC-In](https://github.com/mh-embed/drone-flight-controller-node)
+## [Manual Receiver Node](https://github.com/mh-embed/drone-flight-controller-node)
 This is the Manual Controller In Node. This node reads controller input from UART and publishes them as-is.
 
 Subscribe to:
@@ -49,7 +49,7 @@ Requirements
 - roscpp
 
 
-## [FC-Out](https://github.com/mh-embed/drone-flight-controller-node)
+## [Flight Controller Node](https://github.com/mh-embed/drone-flight-controller-node)
 This is the Flight Controller Out Node. This node takes messages published by the control node and sends them to the flight controller. 
 
 Subscribe to:
@@ -68,7 +68,7 @@ Requirements
 
 
 
-## CV-Watchdog
+## [CV-Watchdog](https://github.com/mh-embed/drone-cv-watchdog)
 This is the CV Watchdog/Manager Node. 
 
 Subscribe to:
