@@ -49,7 +49,7 @@ Requirements
 - roscpp
 
 
-## FC-Out
+## [FC-Out](https://github.com/mh-embed/drone-flight-controller-node)
 This is the Flight Controller Out Node. This node takes messages published by the control node and sends them to the flight controller. 
 
 Subscribe to:
@@ -68,8 +68,8 @@ Requirements
 
 
 
-## CV-Manager
-This is the CV Manager Node. IT IS TBD. 
+## CV-Watchdog
+This is the CV Watchdog/Manager Node. 
 
 Subscribe to:
 - TBD
