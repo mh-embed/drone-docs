@@ -30,7 +30,7 @@ Requirements
 - roscpp
 
 
-## MC-In
+## [MC-In](https://github.com/mh-embed/drone-flight-controller-node)
 This is the Manual Controller In Node. This node reads controller input from UART and publishes them as-is.
 
 Subscribe to:
