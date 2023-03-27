@@ -31,5 +31,7 @@ Development Environment is configured through Docker in our [devcontainer config
 - [Drone Core](https://github.com/mh-embed/drone-core)
   - ROS requirements documented in [core.md](https://github.com/mh-embed/drone-docs/blob/main/core.md)
 - [Drone Flight Controller Communicator](https://github.com/mh-embed/drone-flight-controller-node)
+  - https://github.com/mh-embed/drone-docs/blob/main/core.md
 - [Drone CV Watchdog](https://github.com/mh-embed/drone-cv-watchdog)
+  - https://github.com/mh-embed/drone-docs/blob/main/core.md
 - [Drone CV Template](https://github.com/mh-embed/drone-cv-template)
