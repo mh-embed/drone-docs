@@ -5,46 +5,46 @@
 This is the Master Control Node
 
 Subscribe to:
-- Manual Controller Packets
-    - man-controller/left_x
-    - man-controller/left_y
-    - man-controller/right_x
-    - man-controller/right_y
+- Manual Controller Packets 
+    - man_control/left_x    [Man means manual, not male :) ]
+    - man_control/left_y
+    - man_control/right_x
+    - man_control/right_y
 - CV Controller Packets
-    - cv-controller/roll
-    - cv-controller/pitch
-    - cv-controller/yaw
+    - cv_control/roll
+    - cv_control/pitch
+    - cv_control/yaw
 - Controller Selector Bit
-    - man-controller/selector
+    - man_control/selector
 
 Publish to:
 - Drone Control
-    - drone-control/roll
-    - drone-control/pitch
-    - drone-control/yaw
+    - drone_control/roll
+    - drone_control/pitch
+    - drone_control/yaw
 - CV Program Selector Bit
-    - drone-control/cv_id
+    - cv_manager/selector
 
 Requirements
 - std_msgs
 - roscpp
 
 
-## [UART Node](https://github.com/mh-embed/drone-flight-controller-node)
+## [Flight Controller Node](https://github.com/mh-embed/drone-flight-controller-node)
 This is the Manual Controller Receiver and Flight Controller Out Node. This node reads controller input from UART and publishes them as-is.
 
 Subscribe to:
 - Drone Control
-    - drone-control/roll
-    - drone-control/pitch
-    - drone-control/yaw
+    - drone_control/roll
+    - drone_control/pitch
+    - drone_control/yaw
 
 Publish to:
 - Manual Controller Packets
-    - man-controller/left_x
-    - man-controller/left_y
-    - man-controller/right_x
-    - man-controller/right_y
+    - man_control/left_x
+    - man_control/left_y
+    - man_control/right_x
+    - man_control/right_y
 
 Requirements
 - rosserial
@@ -56,10 +56,12 @@ Requirements
 This is the CV Watchdog/Manager Node. 
 
 Subscribe to:
-- TBD
+- cv_manager/selector
 
 Publish to:
-- TBD
+- cv_selector/<CV_UID>  (for each CV_UID registered)
 
 Requirements
-- TBD
+- roscpp
+- rospy     (Prototyping Stage)
+- 
