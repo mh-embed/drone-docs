@@ -5,15 +5,15 @@ This is a Template for a CV Node
 
 Subscribe to:
 - CV Program Selector Bit
-    - drone-control/cv_id
+    - drone_control/cv_id
 
 Publish to:
 - CV Controller Packets
-    - cv-controller/roll
-    - cv-controller/pitch
-    - cv-controller/yaw
+    - cv_controller/roll
+    - cv_controller/pitch
+    - cv_controller/yaw
 
 Requirements
 - std_msgs
 - rospy
-- opencv
+- opencv (cv2)
