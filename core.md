@@ -64,4 +64,3 @@ Publish to:
 Requirements
 - roscpp
 - rospy     (Prototyping Stage)
-- 
