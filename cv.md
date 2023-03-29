@@ -19,4 +19,4 @@ Requirements
 - opencv (cv2)
     
 ### Make Your Custom CV Node
-    To build your own CV node, follow instructions documented in the [Template](https://github.com/mh-embed/drone-cv-template)
+To build your own CV node, follow instructions documented in the [Template](https://github.com/mh-embed/drone-cv-template)
