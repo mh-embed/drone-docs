@@ -1,11 +1,11 @@
-# drone-docs
+# Drone Docs
 Michigan Hackers Embedded 2023 Drone project Documentation
 
-# Development
+## Development
 
 Development Environment is configured through Docker in our [devcontainer config](https://github.com/mh-embed/.devcontainer)
 
-# Package List
+## Package List
 - [Drone Core](https://github.com/mh-embed/drone-core)
   - ROS requirements documented in [core.md](https://github.com/mh-embed/drone-docs/blob/main/core.md)
 - [Drone Flight Controller Communicator](https://github.com/mh-embed/drone-flight-controller-node)
@@ -16,7 +16,7 @@ Development Environment is configured through Docker in our [devcontainer config
 - [Drone CV Template](https://github.com/mh-embed/drone-cv-template)
   - ROS requirements documented in [cv.md](https://github.com/mh-embed/drone-docs/blob/main/cv.md)
 
-# ROS
+## ROS
 We are using ROS noetic for this drone. To learn more about [ROS](https://www.ros.org/), follow the [ROS tutorials](http://wiki.ros.org/ROS/Tutorials) to learn about these topics:
 
 Development:
