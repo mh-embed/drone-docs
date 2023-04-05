@@ -5,6 +5,10 @@ Michigan Hackers Embedded 2023 Drone project Documentation
 
 Development Environment is configured through Docker in our [devcontainer config](https://github.com/mh-embed/.devcontainer)
 
+## Deployment
+
+Since ROS Noetic for RPI 3 could not be installed with binary packages through the official guide, we followed [this tutorial](https://varhowto.com/install-ros-noetic-raspberry-pi-4/) to install ROS Noetic on our Raspberry PI 3 with Raspbian Legacy (Debian Buster)
+
 ## Package List
 - [Drone Core](https://github.com/mh-embed/drone-core)
   - ROS requirements documented in [core.md](https://github.com/mh-embed/drone-docs/blob/main/core.md)
